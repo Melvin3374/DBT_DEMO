@@ -1,4 +1,27 @@
+# .gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+env/
+venv/
+my-dbt-env/
 
-target/
+# dbt
 dbt_packages/
+target/
 logs/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials (à adapter si tu as des fichiers sensibles)
+*.db
+*.log
